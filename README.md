@@ -10,7 +10,7 @@ We did a [cutter.py](modeling/cutter.py) module that pads each side of the image
 <img width="1103" alt="2022-04-18_15-29" src="https://user-images.githubusercontent.com/54595287/163815606-359b53ea-e8da-48a8-af5d-370a845d1559.png">  
 
 ### Tresholding
-The dataset was segregated by thresholding it for a minimum X% of tissue pixels. After thresholding for several percentages such as 40%, 30%, 20%, etc., it was observed that by thresholding with 30%, maximum redundancy was removed, and useful information was saved.
+We left only those patches where was a disease
 
 ### TTA
 For TTA we used simple averaging of the default image and augmentated:
